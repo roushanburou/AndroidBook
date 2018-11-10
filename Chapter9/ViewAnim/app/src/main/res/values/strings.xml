@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ViewAnim</string>
+    <string name="tween">补间动画</string>
+    <string name="translate">平移</string>
+    <string name="scale">缩放</string>
+    <string name="rotate">旋转</string>
+    <string name="alpha">透明度</string>
+    <string name="set">组合动画</string>
+</resources>

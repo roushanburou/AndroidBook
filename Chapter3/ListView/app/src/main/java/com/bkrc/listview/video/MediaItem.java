@@ -1,0 +1,72 @@
+package com.bkrc.listview.video;
+
+import java.io.Serializable;
+
+/**
+ * 作者： 小白攻城狮 on 2017/8/15.
+ * 作用： 代表一个视频或者音频
+ */
+
+public class MediaItem implements Serializable{
+
+    private String name;
+
+    private long duration;
+
+    private long size;
+
+    private String data;
+
+    private String artist;
+
+    @Override
+    public String toString() {
+        return "MediaItem{" +
+                "name='" + name + '\'' +
+                ", duration=" + duration +
+                ", size=" + size +
+                ", data='" + data + '\'' +
+                ", artist='" + artist + '\'' +
+                '}';
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public long getDuration() {
+        return duration;
+    }
+
+    public void setDuration(long duration) {
+        this.duration = duration;
+    }
+
+    public long getSize() {
+        return size;
+    }
+
+    public void setSize(long size) {
+        this.size = size;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public void setArtist(String artist) {
+        this.artist = artist;
+    }
+}

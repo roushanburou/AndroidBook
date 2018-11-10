@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <rotate
+        android:duration="2000"
+        android:startOffset ="0"
+        android:fillBefore = "true"
+        android:fillAfter = "false"
+        android:fillEnabled= "true"
+        android:repeatMode= "restart"
+        android:repeatCount = "0"
+        android:fromDegrees="0"
+        android:toDegrees="270"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        />
+    <alpha
+        android:duration="2000"
+        android:startOffset ="0"
+        android:fillBefore = "true"
+        android:fillAfter = "false"
+        android:fillEnabled= "true"
+        android:repeatMode= "restart"
+        android:repeatCount = "0"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"/>
+
+    <scale
+        android:duration="2000"
+        android:fromXScale="0.0"
+        android:toXScale="1.5"
+        android:toYScale="1.5"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fillBefore="true"
+        android:fillAfter="false"
+        android:fillEnabled="true"
+        android:repeatMode="restart"
+        android:repeatCount="0"/>
+
+    <translate
+        android:duration="2000"
+        android:fromXDelta="0"
+        android:toXDelta="300"
+        android:fromYDelta="0"
+        android:toYDelta="300"
+        android:fillBefore ="true"
+        android:fillAfter="false"
+        android:fillEnabled="true"
+        android:repeatMode="restart"
+        android:repeatCount="0"/>
+
+</set>

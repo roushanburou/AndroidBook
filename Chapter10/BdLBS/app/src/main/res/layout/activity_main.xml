@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/addfence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始定位" />
+
+        <Button
+            android:id="@+id/addMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地图定位" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bdMap"
+            android:layout_margin="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_margin="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.89"
+            android:scrollbars="vertical"
+            android:textColor="#ff0000"
+            android:text=" "/>
+    </RelativeLayout>
+</LinearLayout>

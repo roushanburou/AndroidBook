@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Component</string>
+
+    <string-array name="email">
+        <item>@163.com</item>
+        <item>@qq.com</item>
+        <item>@sohu.com</item>
+        <item>@aliyun.com</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/progress">
+            <shape>
+                <corners android:radius="2dip" />
+                <gradient
+                    android:startColor="#2e6be5"
+                    android:endColor="#2ea8e5"
+                    android:angle="0"
+                    />
+            </shape>
+    </item>
+</selector>
+

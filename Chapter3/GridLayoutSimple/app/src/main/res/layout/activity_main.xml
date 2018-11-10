@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:columnCount="3"
+    android:layout_rowSpan="3"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_marginTop="18dp"
+        android:drawableTop="@drawable/audio"
+        style="@style/GridSystemButtonTheme"
+        android:text="音频" />
+
+    <Button
+        android:layout_marginTop="18dp"
+
+        android:drawableTop="@drawable/video"
+        style="@style/GridSystemButtonTheme"
+        android:text="视频" />
+
+    <Button
+        android:layout_marginTop="18dp"
+
+        android:drawableTop="@drawable/appshop"
+        style="@style/GridSystemButtonTheme"
+        android:text="应用商店" />
+
+    <Button
+        android:drawableTop="@drawable/casepackage"
+        style="@style/GridSystemButtonTheme"
+        android:text="公文包" />
+
+    <Button
+        android:drawableTop="@drawable/notecase"
+        style="@style/GridSystemButtonTheme"
+        android:text="记事本" />
+
+    <Button
+        android:drawableTop="@drawable/safetybutler"
+        style="@style/GridSystemButtonTheme"
+        android:text="安全管家" />
+
+    <Button
+        android:drawableTop="@drawable/signal"
+        style="@style/GridSystemButtonTheme"
+        android:text="信号" />
+
+    <Button
+        android:drawableTop="@drawable/thunderbolt"
+        style="@style/GridSystemButtonTheme"
+        android:text="迅雷" />
+
+    <Button
+        android:drawableTop="@drawable/timer"
+        style="@style/GridSystemButtonTheme"
+        android:text="时钟" />
+
+</GridLayout>

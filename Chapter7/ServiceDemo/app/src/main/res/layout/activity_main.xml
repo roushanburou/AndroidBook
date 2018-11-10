@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="18dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="启动服务"
+        android:onClick="onStartService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="停止服务"
+        android:onClick="onStopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="绑定服务"
+        android:onClick="onBindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="解绑服务"
+        android:onClick="onUnbindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="获取服务运行的时间"
+        android:onClick="onGetCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="绑定远程服务"
+        android:onClick="onBindMessengerService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="解绑远程服务"
+        android:onClick="onUnbindMessengerService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="发送数据至远程服务"
+        android:onClick="onData2MessengerService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    >
+
+</LinearLayout>

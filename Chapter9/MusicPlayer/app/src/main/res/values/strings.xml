@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="start">播放</string>
+    <string name="pause">暂停</string>
+    <string name="stop">停止</string>
+    <string name="looping">循环播放</string>
+
+
+</resources>

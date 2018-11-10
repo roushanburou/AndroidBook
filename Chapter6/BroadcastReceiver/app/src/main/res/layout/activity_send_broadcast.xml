@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="18dp"
+    android:orientation="vertical"
+    tools:context=".SendBroadcastActivity">
+
+    <Button
+        android:text="发送普通广播"
+        android:onClick="sendBroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="发送有序广播"
+        android:onClick="sendOrderBroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onRegisterNativeReceiver"
+        android:text="注册App应用内广播" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onUnregisterNativeReceiver"
+        android:text="解除App应用内广播" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendNativeBroadcastReceiver"
+        android:text="发送App应用内广播" />
+</LinearLayout>
