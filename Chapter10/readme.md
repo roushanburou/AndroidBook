@@ -2,7 +2,7 @@
 
 ——采集GPS定位数据（不包含卫星数据）
 
-![img](file:///C:\Users\hhl\AppData\Local\Temp\ksohtml\wpsC73B.tmp.png)
+![img](https://github.com/roushanburou/AndroidBook/blob/master/Chapter10/ksohtml/wpsC73B.tmp.png?raw=true)
 
 ## BdLBS
 
@@ -10,19 +10,19 @@
 
 ### 网络定位
 
-![img](file:///C:\Users\hhl\AppData\Local\Temp\ksohtml\wps8F7E.tmp.png)
+![img](https://github.com/roushanburou/AndroidBook/blob/master/Chapter10/ksohtml/wps8F7E.tmp.png?raw=true)
 
 ### 百度地图
 
-![img](file:///C:\Users\hhl\AppData\Local\Temp\ksohtml\wpsE437.tmp.png)
+![img](https://github.com/roushanburou/AndroidBook/blob/master/Chapter10/ksohtml/wpsE437.tmp.png?raw=true)
 
 ## SensorList
 
 ——以华为荣耀9为例显示传感器列表
 
-![img](file:///C:\Users\hhl\AppData\Local\Temp\ksohtml\wps670.tmp.png)
+![img](https://github.com/roushanburou/AndroidBook/blob/master/Chapter10/ksohtml/wps670.tmp.png)
 
-![img](file:///C:\Users\hhl\AppData\Local\Temp\ksohtml\wps243A.tmp.png)
+![img](https://github.com/roushanburou/AndroidBook/blob/master/Chapter10/ksohtml/wps243A.tmp.png?raw=true)
 
 ## WeiChatShake-master
 
@@ -30,7 +30,7 @@
 
 ### 仿微信摇一摇
 
-![img](file:///C:\Users\hhl\AppData\Local\Temp\ksohtml\wpsF3C0.tmp.jpg)
+![img](https://github.com/roushanburou/AndroidBook/blob/master/Chapter10/ksohtml/wpsF3C0.tmp.jpg?raw=true)
 
 ## Compass-master
 
@@ -38,7 +38,7 @@
 
 ### 仿小米指南针应用
 
-![img](file:///C:\Users\hhl\AppData\Local\Temp\ksohtml\wps48D2.tmp.png)
+![img](https://github.com/roushanburou/AndroidBook/blob/master/Chapter10/ksohtml/wps48D2.tmp.png?raw=true)
 
 ## SmartHomeLightControl
 
@@ -46,4 +46,4 @@
 
 ### 智能家居光控系统
 
-![img](file:///C:\Users\hhl\AppData\Local\Temp\ksohtml\wps6E9B.tmp.png)
+![img](https://github.com/roushanburou/AndroidBook/blob/master/Chapter10/ksohtml/wps6E9B.tmp.png?raw=true)
