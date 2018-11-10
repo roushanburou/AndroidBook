@@ -8,4 +8,4 @@
 
 ## ServiceDemo2
 
-——
+——前台服务、IntentServer、隐式启动、保证服务杀不死
