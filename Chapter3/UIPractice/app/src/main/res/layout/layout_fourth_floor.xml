@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:id="@+id/iv_buy_frame_10"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/buy_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_shop_10"
+        android:layout_alignTop="@+id/iv_buy_frame_10"
+        android:layout_alignLeft="@+id/iv_buy_frame_10"
+        android:layout_marginLeft="18dp"
+        style="@style/TvShop">
+
+        <LinearLayout style="@style/LlShopSale">
+
+            <TextView style="@style/TvShopSaleUnit2" />
+
+            <TextView
+                android:id="@+id/tv_shop_10_sale"
+                style="@style/TvShopSale" />
+
+            <TextView style="@style/TvShopSaleUnit" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_shop_10_name"
+            style="@style/TvShopName" />
+
+        <TextView
+            android:id="@+id/tv_shop_10_remark"
+            style="@style/TvShopRemark" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_shop_10_buy"
+        android:layout_below="@+id/ll_shop_10"
+        android:layout_alignLeft="@+id/ll_shop_10"
+        android:layout_alignRight="@+id/ll_shop_10"
+        style="@style/BtnShopBuy" />
+
+    <LinearLayout
+        android:id="@+id/ll_shop_11"
+        android:layout_alignTop="@+id/iv_buy_frame_10"
+        android:layout_centerHorizontal="true"
+        style="@style/TvShop">
+
+        <LinearLayout style="@style/LlShopSale">
+
+            <TextView style="@style/TvShopSaleUnit2" />
+
+            <TextView
+                android:id="@+id/tv_shop_11_sale"
+                style="@style/TvShopSale" />
+
+            <TextView style="@style/TvShopSaleUnit" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_shop_11_name"
+            style="@style/TvShopName" />
+
+        <TextView
+            android:id="@+id/tv_shop_11_remark"
+            style="@style/TvShopRemark" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_shop_11_buy"
+        android:layout_below="@+id/ll_shop_11"
+        android:layout_alignLeft="@+id/ll_shop_11"
+        android:layout_alignRight="@+id/ll_shop_11"
+        style="@style/BtnShopBuy" />
+
+    <LinearLayout
+        android:id="@+id/ll_shop_12"
+        android:layout_alignTop="@+id/iv_buy_frame_10"
+        android:layout_alignRight="@+id/iv_buy_frame_10"
+        android:layout_marginRight="18dp"
+        style="@style/TvShop">
+
+        <LinearLayout style="@style/LlShopSale">
+
+            <TextView style="@style/TvShopSaleUnit2" />
+
+            <TextView
+                android:id="@+id/tv_shop_12_sale"
+                style="@style/TvShopSale" />
+
+            <TextView style="@style/TvShopSaleUnit" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_shop_12_name"
+            style="@style/TvShopName" />
+
+        <TextView
+            android:id="@+id/tv_shop_12_remark"
+            style="@style/TvShopRemark" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_shop_12_buy"
+        android:layout_below="@+id/ll_shop_12"
+        android:layout_alignLeft="@+id/ll_shop_12"
+        android:layout_alignRight="@+id/ll_shop_12"
+        style="@style/BtnShopBuy" />
+</RelativeLayout>

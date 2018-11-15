@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BtnShopBuy">
+        <item name="android:background">@drawable/buy_shop</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">6sp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:text">立即购买 ▶</item>
+    </style>
+
+    <style name="TvShopRemark">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">#4d4545</item>
+        <item name="android:textSize">4sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:text">备注</item>
+    </style>
+
+    <style name="TvShopName">
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">#393239</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">6sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">商品名称</item>
+    </style>
+
+    <style name="TvShopSaleUnit">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">6sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">/100ml</item>
+    </style>
+
+    <style name="TvShopSale">
+        <item name="android:textColor">#393239</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">499</item>
+    </style>
+
+    <style name="TvShopSaleUnit2">
+        <item name="android:textColor">#393239</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">¥</item>
+    </style>
+
+    <style name="LlShopSale">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TvShop">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/buy_shop_bg</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

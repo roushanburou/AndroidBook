@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:src="@drawable/coupon" />
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="58dp"
+                android:src="@drawable/buy_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_buy_frame_1"
+                    android:layout_marginTop="8dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/buy_frame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:id="@+id/ll_shop_1"
+                    android:layout_alignTop="@+id/iv_buy_frame_1"
+                    android:layout_alignLeft="@+id/iv_buy_frame_1"
+                    style="@style/TvShop">
+
+                    <ImageView
+                        android:src="@drawable/houhui"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout style="@style/LlShopSale">
+
+                        <TextView style="@style/TvShopSaleUnit2" />
+
+                        <TextView
+                            android:id="@+id/tv_shop_1_sale"
+                            style="@style/TvShopSale" />
+
+                        <TextView style="@style/TvShopSaleUnit" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_shop_1_name"
+                        android:text="后悔药"
+                        style="@style/TvShopName" />
+
+                    <TextView
+                        android:id="@+id/tv_shop_1_remark"
+                        android:text="买1斤送1斤，5斤起步，立即见效"
+                        style="@style/TvShopRemark" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_shop_1_buy"
+                    android:layout_below="@+id/ll_shop_1"
+                    android:layout_alignLeft="@+id/ll_shop_1"
+                    android:layout_alignRight="@+id/ll_shop_1"
+                    style="@style/BtnShopBuy" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
