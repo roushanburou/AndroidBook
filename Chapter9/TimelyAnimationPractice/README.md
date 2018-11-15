@@ -1,29 +1,9 @@
-# TimelyAnimation
-Number Vector Animation. Apply in timer or other application.<br/>
-![SAMPLE](./images/sample.gif)
+# 案例效果演示
+本章案例比较简单，大家可以拿来当做实现ViewAnimation特效的练习，我已经在源码中添加了很多注释。
 
-## System Requirement
-Android v2.3+
-
-## TODO
-Android Studio
+![SAMPLE](./result.gif)
 
 ## Usage
-### Gradle
-```
-compile(group: 'com.jiahuan.timelyanimation', name: 'timelyanimation', version: '0.5.0', ext: 'aar')
-```
-
-### Maven
-```xml
-<dependency>
-        <groupId>com.jiahuan.timelyanimation</groupId>
-        <artifactId>timelyanimation</artifactId>
-        <version>0.5.0</version>
-        <type>aar</type>
-</dependency>
-```
-
 ### Add View Layout
 ```xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -105,11 +85,53 @@ public class MainActivity extends Activity
 }
 ```
 
-## License
-Copyright 2015 JiaHuan
+## 有话要说
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+说说library下的具体实现类思路：NumberSwitchView
 
-http://www.apache.org/licenses/LICENSE-2.0
+关键代码如下，更多注释可在NumberSwitchView查找：
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+```
+@Override
+        protected void applyTransformation(float interpolatedTime, Transformation t) {
+            if (interpolatedTime != 1) {
+                // 这样写 for 减少计算量
+                for (int i = 0, N = from.length; i < N; i++) {
+                    // 通过该算法能计算出平移过程中的数字点的分布位置，也就是实现平移的过程。
+                    // 该算法可以抄 TranslateAnimation 源码下的 applyTransformation 算法实现。
+                    currentNumberPoints[i] = from[i] + (to[i] - from[i]) * interpolatedTime;
+                }
+                invalidate();
+            }
+        }
+```
+
+### 特效本质：
+
+​	点平移动画。
+
+### 实现思路：
+
+​	在此之前我们已经定义了每个数字的108点，将108个点用线连起来就是我们的数字。因为每个不同数字间的点分布是不同的，所以我们可以通过startAnimation()启动点 的平移动画，平移过程点的分布在重写的 applyTransformation 中实现。然后，每 改变一次分布就通过 invalidate() 方法刷新界面，通过 onDraw() 重新绘制。
+
+### 思考：
+​	留一个思考题，我们可以看到 TranslateAnimation 是通过 t.getMatrix().setTranslate(dx, dy) 方法实现平移特效的，显然这种方法更加高效。 那么我们能否也效仿此举，改写如今使用 invalidate() 以达刷新的方法？
+
+
+
+## 扩展
+
+我们也可以做一个酷炫的电子表。
+
+![SAMPLE](./result2.gif)
+
+代码如下：
+
+```
+// 变成时钟
+Time t=new Time(); // or Time t=new Time("GMT+8"); 加上Time Zone资料。
+t.setToNow(); // 取得系统时间。
+hourNumber = t.hour; // 0-23
+minuteNumber = t.minute;
+number = t.second;
+```
