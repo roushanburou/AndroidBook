@@ -1,13 +1,3 @@
-Screenshot
+效果如下：
 
-
-Please waiting for loading the gif...
-
-![](/path1.gif)
-
-
-![](/path2.gif)
-
-![](/path3.gif)
-
-Just tested on Android 5.0
+https://github.com/roushanburou/AndroidBook/blob/master/Chapter9/PathEffectTextViewPractice/result.gif
