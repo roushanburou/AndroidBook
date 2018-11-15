@@ -61,3 +61,21 @@
 ![img](https://github.com/roushanburou/AndroidBook/blob/master/Chapter9/ksohtml/wps1AC.tmp.png?raw=true)
 
 <video src="https://github.com/roushanburou/AndroidBook/blob/master/Chapter9/ksohtml/u-boot.mp4"></video>
+
+## PathEffectTextViewPractice
+
+——写字动画练习
+
+点击链接可查看详情 https://github.com/roushanburou/AndroidBook/tree/master/Chapter9/PathEffectTextViewPractice）
+
+## TimelyAnimationPractice
+
+——超酷计时器练习（内有详解）
+
+点击链接可查看详情 https://github.com/roushanburou/AndroidBook/tree/master/Chapter9/TimelyAnimationPractice
+
+## TimelyTextViewParctice
+
+——数字间无缝特效展示（演示程序）
+
+点击链接可查看源详情 https://github.com/roushanburou/AndroidBook/tree/master/Chapter9/TimelyAnimationPractice
