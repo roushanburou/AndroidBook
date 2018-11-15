@@ -37,19 +37,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // 根据文件地址创建File对象，用于存储拍照后的照片
-                File outputImage = new File(getExternalCacheDir(),"take_image.jpg");
+                File outputImage = new File(getExternalCacheDir(), "take_image.jpg");
                 try {
-                    if (outputImage.exists()){
+                    if (outputImage.exists()) {
                         outputImage.delete();
                     }
                     outputImage.createNewFile();
-                }catch (IOException e){
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
-                if (Build.VERSION.SDK_INT >= 24){
+                if (Build.VERSION.SDK_INT >= 24) {
                     // 把文件地址转换成Uri格式
-                    imageUri = FileProvider.getUriForFile(MainActivity.this,"com.example.takephoto.takepicture.fileprovider",outputImage);
-                }else {
+                    imageUri = FileProvider.getUriForFile(MainActivity.this, "com.example.takephoto.takepicture.fileprovider", outputImage);
+                } else {
                     // 把文件地址转换成Uri格式
                     imageUri = Uri.fromFile(outputImage);
                 }
@@ -57,22 +57,22 @@ public class MainActivity extends AppCompatActivity {
                 // 指定开启系统相机的Action
                 Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE); //("android.media.action.IMAGE_CAPTURE");
                 // 设置系统相机拍摄照片完成后图片文件的存放地址
-                intent.putExtra(MediaStore.EXTRA_OUTPUT,imageUri);
-                startActivityForResult(intent,TAKE_PHOTO);
+                intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+                startActivityForResult(intent, TAKE_PHOTO);
             }
         });
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        switch (requestCode){
+        switch (requestCode) {
             case TAKE_PHOTO:
-                if (resultCode == RESULT_OK){
+                if (resultCode == RESULT_OK) {
                     try {
                         //将拍摄的照片显示出来
                         Bitmap bitmap = BitmapFactory.decodeStream(getContentResolver().openInputStream(imageUri));
                         picture.setImageBitmap(bitmap);
-                    }catch (FileNotFoundException e){
+                    } catch (FileNotFoundException e) {
                         e.printStackTrace();
                     }
                 }
