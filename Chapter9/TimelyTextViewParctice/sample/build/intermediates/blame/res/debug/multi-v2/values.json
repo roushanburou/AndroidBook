@@ -1,0 +1,73 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "89,147",
+                        "endColumns": "57,55",
+                        "endOffsets": "142,198"
+                    },
+                    "to": {
+                        "startLines": "15,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "385,443",
+                        "endColumns": "57,55",
+                        "endOffsets": "438,494"
+                    }
+                },
+                {
+                    "source": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "108,56",
+                        "endColumns": "52,51",
+                        "endOffsets": "156,103"
+                    },
+                    "to": {
+                        "startLines": "17,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "499,552",
+                        "endColumns": "52,51",
+                        "endOffsets": "547,599"
+                    }
+                },
+                {
+                    "source": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,510",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,665"
+                    },
+                    "to": {
+                        "startLines": "19,26",
+                        "startColumns": "4,4",
+                        "startOffsets": "604,895",
+                        "endLines": "25,28",
+                        "endColumns": "12,12",
+                        "endOffsets": "890,1050"
+                    }
+                },
+                {
+                    "source": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\src\\main\\res\\values\\arrays.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "14",
+                        "endColumns": "19",
+                        "endOffsets": "380"
+                    }
+                }
+            ]
+        }
+    ]
+}

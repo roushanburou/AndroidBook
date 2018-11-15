@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\build\\intermediates\\res\\merged\\release\\menu_main.xml.flat",
+        "source": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\GitLibrary\\AndroidBook\\Chapter9\\TimelyTextView-master\\sample\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,15 @@
+apply plugin: 'android-library'
+
+dependencies {
+    implementation 'com.nineoldandroids:library:2.4.0'
+}
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+}
