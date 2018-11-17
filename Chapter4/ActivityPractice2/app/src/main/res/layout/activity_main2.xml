@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="18dp"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:textSize="18sp"
+        android:text="亲爱的 null，欢迎您"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_marginTop="8dp"
+        android:text="您输入的密码为："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
