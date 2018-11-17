@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_margin="3dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/stop_button_selector" />
+
+    <!--在中间图片的左边 -->
+    <Button
+        android:id="@+id/btn2"
+        android:layout_margin="3dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/btn1"
+        android:background="@drawable/left_button_selector" />
+
+    <!-- 在中间图片的右边 -->
+    <Button
+        android:id="@+id/btn3"
+        android:layout_margin="3dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/btn1"
+        android:background="@drawable/right_button_selector" />
+
+    <!-- 在中间图片的上面-->
+    <Button
+        android:id="@+id/btn4"
+        android:layout_margin="3dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/up_button_g_selector" />
+
+    <!-- 在中间图片的下面 -->
+    <Button
+        android:id="@+id/btn5"
+        android:layout_margin="3dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/btn1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/below_button_selector" />
+</RelativeLayout>
