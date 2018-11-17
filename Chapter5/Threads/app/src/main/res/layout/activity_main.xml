@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="18dp"
+    android:orientation="vertical"
+    tools:context="com.bkrc.threads.MainActivity">
+
+    <Button
+        android:textAllCaps="false"
+        android:text="Handler消息机制"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="onClick2"
+        android:text="其他更新UI的方法"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="onClick3"
+        android:text="AsyncTask异步任务"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
